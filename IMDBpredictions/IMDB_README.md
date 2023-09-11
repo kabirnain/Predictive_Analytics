@@ -75,4 +75,8 @@ The model can be improved in several ways:
 
 ## License
 
-This project is licensed under the MIT License -
+This project is licensed under the MIT License
+
+## Contributors
+
+This project was made possible through team work by Sakshi Kumar, Peter-Heglund Lohman and Kabir Nain.
