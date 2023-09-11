@@ -1,2 +1,2 @@
 # ProjectsinR
-Statistical Analaysis (regression, classification) and Visualization using R Studio!
+Statistical Analysis (regression, classification) and Visualization using R Studio!
