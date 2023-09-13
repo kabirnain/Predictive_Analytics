@@ -3,6 +3,8 @@
 
 This project aims to perform Principal Component Analysis (PCA) on a dataset of 2000 Spotify songs to find a low-dimensional representation of the data that captures variability as much as possible, and to visualize the most important components in a 2D plot. The R programming language is used for the analysis.
 
+## Please note: The file PCA Spotify.pdf contains an in-depth explanation for this project. 
+
 ## Table of Contents
 
 1. [Data Splitting](#data-splitting)
