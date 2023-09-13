@@ -1,0 +1,1 @@
+This project uses an Unsupervised Learning tool called Principal Component Analysis (PCA) on a Spotify dataset with over 2000 songs to find a low-dimensional representation of the data that captures variability as much as possible, and to visualize the most important components in a 2D plot.
