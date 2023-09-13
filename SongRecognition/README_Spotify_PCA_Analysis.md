@@ -8,10 +8,9 @@ This project aims to perform Principal Component Analysis (PCA) on a dataset of 
 ## Table of Contents
 
 1. [Data Splitting](#data-splitting)
-2. [Data Visualization](#data-visualization)
-3. [PCA Analysis](#pca-analysis)
-4. [PCA Visualization](#pca-visualization)
-5. [Special Artist Analysis](#special-artist-analysis)
+2. [PCA Analysis](#pca-analysis)
+3. [PCA Visualization](#pca-visualization)
+4. [Special Artist Analysis](#special-artist-analysis)
 
 ## Data Splitting
 
@@ -23,15 +22,6 @@ The dataset is divided into two parts:
 ```R
 spotify_labels <- spotify_data[, 1:2]
 spotify_vars <- spotify_data[, 3:11]
-```
-
-## Data Visualization
-
-Scatter plots are generated to visualize the relationships between the variables. The `GGally` package is used for this.
-
-```R
-library(GGally)
-ggpairs(spotify_vars)
 ```
 
 ## PCA Analysis
