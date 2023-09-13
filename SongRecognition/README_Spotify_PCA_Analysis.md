@@ -1,6 +1,7 @@
 # Spotify Song Data PCA Analysis
 
-This project aims to perform Principal Component Analysis (PCA) on a dataset of Spotify songs. The R programming language is used for the analysis.
+
+This project aims to perform Principal Component Analysis (PCA) on a dataset of 2000 Spotify songs to find a low-dimensional representation of the data that captures variability as much as possible, and to visualize the most important components in a 2D plot. The R programming language is used for the analysis.
 
 ## Table of Contents
 
@@ -54,12 +55,11 @@ PCA plots are generated to highlight songs by specific artists and titles.
 
 1. Songs by Drake
 2. Songs by Arcade Fire
-3. The song "Beat It"
+
 
 ```R
 autoplot(pca, data = spotify_vars,  loadings = TRUE, col=ifelse(spotify_labels$artist=="Drake","blue","transparent"),  loadings.label = TRUE)
 autoplot(pca, data = spotify_vars,  loadings = TRUE, col=ifelse(spotify_labels$artist=="Arcade Fire","blue","transparent"),  loadings.label = TRUE)
-autoplot(pca, data = spotify_vars,  loadings = TRUE, col=ifelse(spotify_labels$song_title=="Beat It","blue","transparent"),  loadings.label = TRUE)
 ```
 
 ## License
